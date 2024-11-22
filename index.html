@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Alura Shop</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- Navbar -->
+      <nav class="nav container">
+        <a href="#" class="logo"> ALURA SHOP </a>
+        <i class="bx bx-shopping-bag" id="cart-icon"></i>
+
+        <!-- CART SECTION -->
+        <section class="cart">
+          <h2 class="cart-title">Your cart</h2>
+          <button type="button" class="btn-buy">Buy Now</button>
+
+          <section class="cart-content">
+
+          </section>
+
+          <section class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+          </section>
+          
+          
+          <i class="bx bx-x" id="close-cart"></i>
+
+        </section>
+      </nav>
+    </header>
+
+    <!-- SHOP SECTION -->
+    <section class="shop container">
+      <h2 class="section-title">Products</h2>
+
+      <!-- SHOP CONTENT -->
+      <section class="shop-content" alt="lista-productos" data-list>
+
+      </section>
+    </section>
+
+    <footer class="footer">
+      <p class="footer-text">Developed by MV <strong>Developer</strong></p>
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/marco-ariel-pretelin-vergara/" target="_blank" class="footer-icon">
+          <i class="bx bxl-linkedin"></i>
+        </a>
+        <a href="https://github.com/MarcoArielPrtlnV" target="_blank" class="footer-icon">
+          <i class="bx bxl-github"></i>
+        </a>
+        <a href="https://www.instagram.com/marcoarielpretelinv/" target="_blank" class="footer-icon">
+          <i class="bx bxl-instagram"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/show-products.js" type="module"></script>
+  </body>
+</html>
