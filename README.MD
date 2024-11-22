@@ -32,5 +32,5 @@ Versión para móvil:
 
 **Marco Pretelín Vergara**
 
-![imagen](assets/linkedin.png)
+![imagen](assets/img/Logo%20MV%20Developer.svg)
  ## https://www.linkedin.com/in/marco-ariel-pretelin-vergara/
