@@ -15,7 +15,6 @@ Versión para tablet:
 ![imagen](assets/screenshots/tablet.png)
 
 Versión para móvil:
-
 ![imagen](assets/screenshots/mobile.png)
 
 
